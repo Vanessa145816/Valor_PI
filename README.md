@@ -21,7 +21,7 @@ int main (int argc, char** argv[]){
              o += 2;
       }
  
-      printf("El valor aproximado de Pi es: %lf", PI);
+      printf("El valor aproximado de Pi es: %1.52lf", PI);
  
       return 0;
 }
