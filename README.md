@@ -3,6 +3,7 @@
   mediante el metodo de Algoritmo John Wallis
   PI= 2(2/1 x 2/3 x 4/3 x 4/5....)         
   *******************************************************************************************************************************/
+
 #include <stdio.h>
 int main (int argc, char** argv[]){
 
@@ -14,7 +15,7 @@ int main (int argc, char** argv[]){
           
           PI *= (o/n);
  
-          if (i % 2 == 0)  // si el resto es 0 K suma y asigna. 
+          if (i % 2 == 0)  // si el resto es 0, n suma y asigna. 
              n += 2;
           else
              o += 2;
